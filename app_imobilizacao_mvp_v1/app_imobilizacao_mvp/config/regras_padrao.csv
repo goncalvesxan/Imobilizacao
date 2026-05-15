@@ -1,0 +1,9 @@
+prioridade,campo,operador,valor,tipo_sugerido,tratamento_sugerido,criterio_rateio,observacao
+1,Descricao,contem,instalacao,Servico,Servico incorporado ao ativo,Proporcional por valor,Serviço normalmente compõe custo do ativo
+2,Descricao,contem,montagem,Servico,Servico incorporado ao ativo,Proporcional por valor,Montagem associada ao bem principal
+3,Descricao,contem,frete,Servico,Servico incorporado ao ativo,Proporcional por valor,Frete pode compor custo de aquisição
+4,Descricao,contem,equipamento,Produto,Novo ativo múltiplo por quantidade,Por quantidade,Compra de equipamento geralmente vira ativo
+5,Descricao,contem,maquina,Produto,Novo ativo unitário,Sem rateio,Equipamento principal
+6,Descricao,contem,componente,Componente,Ativo principal com componentes,Por ativo principal,Componente vinculado ao principal
+7,Descricao,contem,acessorio,Componente,Ativo principal com componentes,Por ativo principal,Acessório pode compor ativo principal
+8,Classe Custo,contem,serv,Servico,Servico incorporado ao ativo,Proporcional por valor,Regra genérica por classe textual
